@@ -1,5 +1,5 @@
 module Test.HUnit.Tools2 where
-import Test.Framework.Providers.HUnit (testCase)
+import Test.HUnit.Base ((@?=), (@=?), (@?))
 import Text.Regex.TDFA ((=~))
 
 (>@?=) monadic expected = do
