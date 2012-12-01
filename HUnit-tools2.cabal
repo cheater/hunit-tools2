@@ -43,15 +43,17 @@ category:            Testing
 
 build-type:          Simple
 
+cabal-version:       >= 1.8
+
 source-repository head
   type: hg
   location: http://bitbucket.org/cheater/hunit-tools2
 
 -- Constraint on the version of Cabal needed to build this package.
-cabal-version:       >= 1.8
 
 
 library
+  hs-source-dirs: src
   -- Modules exported by the library.
   exposed-modules:
     Test.HUnit.Tools2
@@ -63,4 +65,5 @@ library
   build-depends:
       base < 5
     , base >= 4
+    , HUnit >= 1.1
     , regex-tdfa >= 0.92
