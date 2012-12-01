@@ -23,6 +23,8 @@ description: This package contains a few simple operators that I have found to
 -- URL for the project homepage or repository.
 homepage:            http://cheater.posterous.com/hunit-tools2
 
+bug-reports:         http://bitbucket.org/cheater/hunit-tools2/issues
+
 -- The license under which the package is released.
 license:             MIT
 
