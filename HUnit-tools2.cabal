@@ -45,13 +45,13 @@ category:            Testing
 
 build-type:          Simple
 
+-- Constraint on the version of Cabal needed to build this package.
 cabal-version:       >= 1.8
 
 source-repository head
   type: hg
   location: http://bitbucket.org/cheater/hunit-tools2
 
--- Constraint on the version of Cabal needed to build this package.
 
 
 library
